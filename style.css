@@ -8,8 +8,12 @@ body {
     color: #5797BA
 }
 
+@font-face {
+    font-family: 'CreatoDisplay';
+    src: url('/fonts/CreatoDisplay-Regular.otf');
+}
 .citation {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'CreatoDisplay';
     font-style: italic;
 }
 
