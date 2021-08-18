@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color: #5797BA
 }
 
 a,
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -688,6 +689,7 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+
 }
 
 .cta-hero {
@@ -707,6 +709,8 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    text-shadow:3px 2px 1px #333;
+    font-weight: bold;
 }
 
 h3 {
@@ -724,6 +728,8 @@ h3 {
 
 h1 {
     color: #333333!important;
+    text-shadow:0 2px 1px #333;
+    font-weight: bold;
 }
 
 h4 {
@@ -753,7 +759,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(107, 88, 39, 0.911);
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,7 +781,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffac85!important;
 }
 
 .btn-atomic-tangerine {
