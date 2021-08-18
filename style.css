@@ -8,6 +8,11 @@ body {
     color: #5797BA
 }
 
+.citation {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -787,6 +792,8 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    text-shadow:0 2px 1px #333;
+
 }
 
 .btn-atomic-tangerine:hover {
