@@ -37,8 +37,16 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.form-group {
+    display: grid;
+}
+
+.return {
+    list-style: none;
+}
+
 .bloc {
-    width: 100%;
+
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
