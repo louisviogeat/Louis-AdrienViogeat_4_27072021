@@ -15,6 +15,11 @@ body {
 .citation {
     font-family: 'CreatoDisplay';
     font-style: italic;
+    font-size: x-large;
+}
+
+.transparent {
+    display: none;
 }
 
 a,
@@ -456,6 +461,8 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 
 .mg-lg {
@@ -742,7 +749,7 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
+.tc-white {
     color: #333333!important;
     text-shadow:0 2px 1px #333;
     font-weight: bold;
@@ -1059,10 +1066,7 @@ h4 {
 }
 
 @media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
+
 }
 
 @media (max-width: 767px) {
