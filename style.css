@@ -768,8 +768,20 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.logo {
+    height: 40px;
+    width: 100%;
+}
+
+.image-resize-mode {
+    height: 100px;
+    width: 100px;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
+    height: 250px;
+    width: 250px;
 }
 
 .portfolio-row {
