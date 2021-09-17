@@ -33,6 +33,11 @@ a:hover {
     cursor: pointer;
 }
 
+a:focus {
+    border-bottom: 4px solid #43E891;
+
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -605,10 +610,7 @@ a[data-lightbox]:hover img {
     padding: 20px;
     color: #FFF;
     background: rgba(0, 0, 0, .5);
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: 5px;
+
 }
 
 .close-lightbox {
@@ -654,9 +656,6 @@ a[data-lightbox]:hover img {
     left: 25px;
 }
 
-.snapshot-lb .modal-body {
-    padding-bottom: 45px;
-}
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
